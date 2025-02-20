@@ -1,0 +1,17 @@
+.help{
+    cursor: pointer;
+}
+
+.help-cont{
+    display:none;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+.help:hover .help-cont{
+    display: flex;
+}

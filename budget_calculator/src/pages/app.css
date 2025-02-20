@@ -1,0 +1,11 @@
+.no-arrows {
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+.app-shadow{
+  box-shadow: 5px 5px 10px rgba(88, 87, 87, 0.559),-5px -5px 10px rgba(88, 87, 87, 0.559);
+}
